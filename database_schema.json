@@ -1,0 +1,20 @@
+{
+  "tables": {
+    "employees": {
+      "columns": {
+        "id": "INTEGER",
+        "name": "VARCHAR(100)",
+        "salary": "DECIMAL(10,2)",
+        "department_id": "INTEGER",
+        "hire_date": "DATE"
+      }
+    },
+    "departments": {
+      "columns": {
+        "id": "INTEGER",
+        "name": "VARCHAR(100)",
+        "location": "VARCHAR(100)"
+      }
+    }
+  }
+}
